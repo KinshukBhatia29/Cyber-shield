@@ -6,13 +6,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
+        <div className="logo">
+          <img src="/logo.png" alt="Logo" />
+        </div>
+        
         <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>
 
-        <div className="logo">
-          <img src="/logo.png" alt="Logo" />
-        </div>
+        
 
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><a href="#">Home</a></li>

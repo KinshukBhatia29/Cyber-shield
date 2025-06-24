@@ -1,9 +1,16 @@
 
+import TopBar from './components/topbar'
+import Navbar from './components/navbar'
 import './App.css'
 
-function App() {
-  return 
-  <h1>hello</h1>;
-}
+const App = () => {
+  return (
+    <>
+      <TopBar />
+      <Navbar />
+    </>
+  );
+};
 
 export default App;
+

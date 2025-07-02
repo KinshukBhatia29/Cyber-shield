@@ -1,0 +1,27 @@
+/* CarouselComponent.css */
+
+/* Style the outer wrapper */
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize image style */
+.carousel .slide img {
+  object-fit:cover;
+  height: 400px;
+}
+
+/* Hide arrows by default */
+.carousel .control-arrow {
+  opacity: 0;
+
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+/* Show arrows on hover */
+.carousel:hover .control-arrow {
+  opacity: 1;
+}

@@ -1,7 +1,8 @@
 
 import TopBar from './components/topbar'
 import Navbar from './components/navbar'
-import CarouselComponent from './components/Carousel';
+import HeroCarousel from './components/Carousel';
+import ServicesSection from "./components/ServicesSection";
 import './App.css'
 
 const App = () => {
@@ -9,7 +10,9 @@ const App = () => {
     <>
       <TopBar />
       <Navbar />
-      <CarouselComponent />
+      <HeroCarousel />
+      <ServicesSection />
+
     </>
   );
 };

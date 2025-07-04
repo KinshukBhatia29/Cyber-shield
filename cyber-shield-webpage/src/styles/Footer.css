@@ -1,8 +1,14 @@
 .footer {
-  background: #f4f4f4;
   padding: 40px 20px;
   font-family: 'Poppins', sans-serif;
+  background-image: url("/images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;          /* <-- makes image cover entire area */
+  background-position: center;     /* <-- keeps image centered */
+  background-color: #000;          /* fallback background if image doesn't load */
+  color: white;                    /* optional for contrast */
 }
+
 
 .footer-top {
   display: flex;

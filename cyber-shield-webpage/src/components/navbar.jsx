@@ -42,7 +42,7 @@ const Navbar = () => {
     <nav ref={navRef} className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.navContainer}>
         <div className={styles.logo}>
-          <a href="/"><img src="/logo.png" alt="Logo" /></a>
+          <a href="/"><img src="/images/Logo.png" alt="Logo" /></a>
         </div>
 
         <button className={styles.menuBtn} onClick={toggleMenu}>

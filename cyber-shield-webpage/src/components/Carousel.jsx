@@ -9,19 +9,19 @@ const slides = [
     button: "Explore Programs"
   },
   {
-    image: "/images/slider3.jpg",
+    image: "/images/image.png",
     title: "Legal Literacy Meets Cyber Awareness",
     subtitle: "When Tech Meets Law, Citizens Win.",
     button: "Know Your Rights"
   },
   {
-    image: "/images/slider6.jpg",
+    image: "/images/image.png",
     title: "Real Stories. Real Impact.",
     subtitle: "Behind Every Campaign, A Life Changed.",
     button: "Read Stories"
   },
   {
-    image: "/images/slider8.jpg",
+    image: "/images/image.png",
     title: "Learn. Act. Prevent.",
     subtitle: "Your Digital Rights, Your Responsibility.",
     button: "Start Learning"

@@ -1,8 +1,8 @@
 .navbar {
   position: fixed;
   width: 100%;
-  top: 0;
   padding: 35px 80px 30px 80px;
+  top: 0;
   display: flex;
   justify-content: space-between;
   z-index: 999;
@@ -13,6 +13,7 @@
 
 .scrolled {
   background-color: white;
+  top:0;
   color: black;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 15px 80px 15px 80px;
@@ -127,6 +128,14 @@
 }
 
 @media (max-width: 768px) {
+  .navbar{
+    padding:10px 0px 10px 10px;
+    right:0px;
+    top:30px;
+  }
+  .scrolled{
+    top:0px;
+  }
   .menuBtn {
     display: block;
     color: white;
@@ -151,18 +160,20 @@
 
   .navLinks.open {
     display: flex;
+    margin: 0px;
   }
 
   .navLinks li {
     padding: 10px 0;
   }
-
   .navLinks a,
   .navLinks span {
     font-size: 1.25rem;
     color: black;
   }
-
+  .menuBtn{
+    color: black;
+  }
   .dropdownMenu {
     position: static;
     background-color: #f9f9f9;
